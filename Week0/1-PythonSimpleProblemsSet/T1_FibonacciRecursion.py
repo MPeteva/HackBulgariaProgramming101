@@ -8,7 +8,7 @@ def nth_fibonacci(n):
 def main():
     n = input("Enter a place in Fibonacci's row:")
 
-    while not n.isdigit() or int(n) <= 0:
+    while not n.isdigit() or int(n) <= 0:               # Is the input corect
         print ("Sorry wrong input. Your place must be a positive number!")
         n = input("Please enter a new place in Fibonacci's row:")
 
