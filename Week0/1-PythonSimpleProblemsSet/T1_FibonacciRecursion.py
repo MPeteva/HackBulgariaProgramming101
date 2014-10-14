@@ -6,10 +6,14 @@ def nth_fibonacci(n):
 
 
 def main():
-    n = int(input("Enter a place in Fibonacci's row:"))
-    while n <= 0:
-        print ("Sorry wrong input. Remind that your place must be a positive number!")
-        n = int(input("Please enter a new place in Fibonacci's row:"))
+    n = input("Enter a place in Fibonacci's row:")
+
+    while not n.isdigit() or int(n) <= 0:
+        print ("Sorry wrong input. Your place must be a positive number!")
+        n = input("Please enter a new place in Fibonacci's row:")
+
+    n = int(n)
+
     print (nth_fibonacci(n))
 
 

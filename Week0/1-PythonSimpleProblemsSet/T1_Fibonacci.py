@@ -1,6 +1,7 @@
 def nth_fibonacci(n):
     first = 1
     second = 1
+
     if n == 1 or n == 2:
         return first
     else:
@@ -12,10 +13,14 @@ def nth_fibonacci(n):
 
 
 def main():
-    n = int(input("Enter a place in Fibonacci's row:"))
-    while int(n) <= 0:
-        print ("Sorry wrong input. Remind that your place must be a positive number!")
+    n = input("Enter a place in Fibonacci's row:")
+
+    while not n.isdigit() or int(n) <= 0:
+        print ("Sorry wrong input. Your place must be a positive number!")
         n = input("Please enter a new place in Fibonacci's row:")
+
+    n = int(n)
+
     print (nth_fibonacci(n))
 
 
