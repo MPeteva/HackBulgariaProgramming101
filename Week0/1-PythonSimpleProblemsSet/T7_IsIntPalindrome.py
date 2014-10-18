@@ -1,8 +1,12 @@
 def is_int_palindrome(n):
-    last = n//2
-    for i in range(0, last):
-        if n[i] != n[last - i]:
+    n = str(n)
+    lenght = len(n)
+    last = lenght//2
+
+    for char in range(0, last):
+        if not n[char] == n[lenght - char - 1]:
             return False
+
     return True
 
 
