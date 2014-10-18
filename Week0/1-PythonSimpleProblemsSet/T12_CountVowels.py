@@ -1,4 +1,4 @@
-def count_vowels(str): # kakva beshe funkciqta dali edin string e chast ot drug string
+def count_vowels(str): 
     VOWERS = "aeiouy"
     str = str.lower()
     number_of_vowels = 0
