@@ -1,18 +1,18 @@
-def count_vowels(str): 
-    VOWERS = "aeiouy"
-    str = str.lower()
+def count_vowels(string):
+    VOWELS = "aeiouy"
+    string_for_counting_vowels = string.lower()
     number_of_vowels = 0
 
-    for char in str:
-        if char in VOWERS:
+    for char in string_for_counting_vowels:
+        if char in VOWELS:
             number_of_vowels += 1
 
     return number_of_vowels
 
 
 def main():
-    Word = input("Input a word: ")
-    print(count_vowels(Word))
+    string = input("Input a string: ")
+    print(count_vowels(string))
 
 
 if __name__ == '__main__':
