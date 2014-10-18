@@ -259,7 +259,8 @@ for i in range(b, a-1, -1):
     do_something(i)
 ```
 
-1    to 100
+1    to   35
+===========================================
 n   	Divisors                       Sum
 1   	1 	                           1
 2   	1, 2 	                       3
