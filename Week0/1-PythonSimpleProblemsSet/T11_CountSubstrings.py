@@ -1,11 +1,12 @@
 def count_substrings(haystack, needle):
-    # imashe gotova funkciq v python
+    count_of_occurrences = haystack.count(needle)
+    return count_of_occurrences
 
 
 def main():
     String = input("Input a string: ")
-    Word = input("Input a word you want to check if contained in string: ")
-    print count_substrings(String, Woord)
+    Word = input("Input a word to count occurrences of it in string: ")
+    print (count_substrings(String, Word))
 
 
 if __name__ == '__main__':
