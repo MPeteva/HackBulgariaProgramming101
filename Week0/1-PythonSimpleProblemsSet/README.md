@@ -190,7 +190,7 @@ Keep in mind that in Python, there is a special operator for integer division:
 ```
 >>> 5 / 2
 2.5
->>> 5 // 2
+>>> 5 // 2    # Закръгля на долу!!!
 2
 ```
 
