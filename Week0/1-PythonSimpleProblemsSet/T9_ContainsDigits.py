@@ -1,19 +1,7 @@
-from contains_digit_8 import contains_digit
-
-# def contains_digits(number, digits):
-#     number_of_contained = 0
-#     number_digits # number of elements in list digits
-#     for i in range(number_digits):
-#         if contains_digits(number, digits[i]):
-#             number_of_contained += 1
-#     if number_digits == number_of_contained:
-#         return True
-#     else:
-#         return False
+from T8_ContainsDigit import contains_digit
 
 
-def contains_digits2(number, digits):
-    number = str(number)
+def contains_digits(number, digits):
     for digit in digits:
         if not contains_digit(number, digit):
             return False
@@ -23,10 +11,10 @@ def contains_digits2(number, digits):
 
 def main():
     number = input("Input a number: ")
-    digits = input("Input a digits: ")
+    digits = input("Input a digits separated by comas and spaces: ")
     digits = digits.split(', ')
 
-    print(contains_digits2(number, digits))
+    print(contains_digits(number, digits))
 
 
 if __name__ == '__main__':
