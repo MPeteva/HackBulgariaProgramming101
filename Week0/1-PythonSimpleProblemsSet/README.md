@@ -665,7 +665,7 @@ def number_to_list(n):
 [1, 2, 3, 0, 2, 3]
 ```
 
-##14. Turn a list of digits into a number
+##15. Turn a list of digits into a number
 
 Implement a function, called ```list_to_number(digits)``` which takes a list of digits (integers) and returns the number, containing those digits.
 
@@ -687,7 +687,7 @@ def list_to_number(digits):
 123023
 ```
 
-##15. Biggest difference between two numbers
+##16. Biggest difference between two numbers
 
 Implement a function, called ```biggest_difference(arr)```, which takes an array of integers and returns the biggest difference between any two numbers from the array.
 
@@ -713,7 +713,7 @@ def biggest_difference(arr):
 -99
 ```
 
-##16. Increasing sequence?
+##17. Increasing sequence?
 
 Implement a function, called ```is_increasing(seq)``` where ```seq``` is a list of integers.
 
@@ -745,7 +745,7 @@ False
 False
 ```
 
-##17. Descreasing sequence?
+##18. Descreasing sequence?
 
 Implement a function, called ```is_decreasing(seq)``` where ```seq``` is a list of integers.
 
@@ -777,7 +777,7 @@ True
 False
 ```
 
-##18. Zero Insertion
+##19. Zero Insertion
 
 Given an integer, implement a function, called `zero_insert(n)`, which returns a new integer, constructed by the following algorithm:
 
@@ -803,7 +803,7 @@ zero_insert(6446)
 6040406
 ```
 
-##19. Sum Numbers in Matrix
+##20. Sum Numbers in Matrix
 
 You are given a `NxM` matrix  of integer numbers.
 
@@ -825,7 +825,7 @@ The matrix will be represented as nested lists in python.
 55
 ```
 
-##20. Matrix Bombing
+##21. Matrix Bombing
 
 You are givn a `NxM` matrix of integer numbers.
 
@@ -880,7 +880,7 @@ and run the function, we will have:
 
 We can see that if we drop the bomb at `(1, 1)` or `(2, 1)`, we will do the most damage!
 
-## Hack Numbers
+##22. Hack Numbers
 
 A hack number is an integer, that matches the following criteria:
 
@@ -906,7 +906,7 @@ Implement a function, called `next_hack(n)` that takes an integer and returns th
 8191
 ```
 
-##21. NaN Expand
+##23. NaN Expand
 
 In most programming languages, `NaN` stands for `Not a Number`
 
@@ -940,7 +940,7 @@ For example:
 "Not a Not a Not a NaN"
 ```
 
-##22. Iterations of NaN Expand
+##24. Iterations of NaN Expand
 
 Implement a function, called `iterations_of_nan_expand(expanded)` that takes a string `expanded`, which is an unkown iteration of NaN Expand (check the problem for more information)
 
@@ -965,7 +965,7 @@ False
 
 
 
-##23. Integer prime factorization
+##25. Integer prime factorization
 
 Given an integer ```n```, we can factor it in the following form:
 
@@ -1006,7 +1006,7 @@ def prime_factorization(n):
 >>> prime_factorization(1000)
 [(2, 3), (5, 3)]
 ```
-##24. Calculate coins
+##26. Calculate coins
 
 This problem is from the [Python 2013 course in FMI](http://2013.fmi.py-bg.net/)
 
@@ -1034,7 +1034,7 @@ def calculate_coins(sum):
 {1: 0, 2: 2, 100: 8, 5: 0, 10: 0, 50: 1, 20: 2}
 ```
 
-##25. What is the sign?
+##27. What is the sign?
 
 This problem is from the Python 2013 course in FMI. [Link to original problem statement.](http://2013.fmi.py-bg.net/tasks/1)
 
