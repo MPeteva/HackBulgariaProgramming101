@@ -9,15 +9,3 @@ def list_to_number(digits):
         return False
     else:
         return int(list_to_string)
-
-# Raboti samo ot testovete zashtoto ne znam kak da vuveda list ot ekrana.....?????
-#def main():
-#    numbers = input("Input numbers: ")
-#    list_of_numbers = list(numbers)
-
-#    list_of_numbers = input("Input a list of numbers: ")
-#    print(list_to_number(list_of_numbers))
-
-
-#if __name__ == '__main__':
-#    main()
