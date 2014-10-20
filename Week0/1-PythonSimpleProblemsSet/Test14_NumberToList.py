@@ -3,7 +3,7 @@ import unittest
 from T14_NumberToList import number_to_list
 
 
-class NumberToList(unittest.TestCase):
+class NumberToListTest(unittest.TestCase):
     def test_if_there_is_no_number(self):
         self.assertEqual([], number_to_list()) # DAva mi bug tuka, che ne sum napisala chislo v skobite???
 
