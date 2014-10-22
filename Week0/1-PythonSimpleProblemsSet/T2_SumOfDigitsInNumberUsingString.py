@@ -2,7 +2,7 @@ def sum_of_digits(n):
     sum = 0
 
     if n < 0:
-        n = -1 * n
+        n *= -1
 
     n = str(n)
 

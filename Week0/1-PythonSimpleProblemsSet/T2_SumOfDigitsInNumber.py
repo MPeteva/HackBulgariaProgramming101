@@ -1,6 +1,6 @@
 def sum_of_digits(n):
     if n < 0:
-        n = -1 * n
+        n *= -1
 
     sum = 0
 

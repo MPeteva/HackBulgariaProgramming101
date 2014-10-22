@@ -7,15 +7,15 @@ def sevens_in_a_row(arr, n):
 
     Number_of_serial_sevens = 0
 
-    for number in range(0, len(arr)):
-        if arr[number] == 7:   # if we found seven we count it
+    for number in arr:
+        if number == 7:
             Number_of_serial_sevens += 1
         else:                # if not we must check if the series is long enogh
             if Number_of_serial_sevens == n:
                 return True
             Number_of_serial_sevens = 0
 
-    if Number_of_serial_sevens == n:
+    if Number_of_serial_sevens == n:  # Cheks the last numbers
             return True
 
     return False

@@ -13,26 +13,6 @@ def is_number_balanced(number):
     return True if sum_left == sum_right else False
 
 
-
-#def is_number_balanced1(number):
-#    middle = len(number) // 2
-#    left_side = number[:middle] !!!
-#
-#    if len(number) % 2 != 0:
-#        right_side = number[middle+1:] !!!
-#    else:
-#        right_side = number[middle:] !!!
-#
-#    digit_sum = 0
-#    for char in left_side:
-#        digit_sum += int(char)
-#
-#    for char in right_side:
-#        digit_sum -= int(char)
-#
-#    return digit_sum == 0
-
-
 def main():
     number = input("Input a number: ")
     print(is_number_balanced(number))
